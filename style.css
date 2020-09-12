@@ -1,0 +1,539 @@
+*{
+  font-family: "Courier New", Courier, monospace;
+}
+.header{
+	
+	font: 15px Arial;
+	font-weight: bold;
+  width: 100%;
+  display: flex;
+}
+.logo{
+  flex: 50%;
+  overflow: hidden;
+}
+
+.navbar a {
+
+  color: #777; 
+  padding: 14px 20px; 
+  text-decoration: none;
+
+}
+
+.navbar a:active {
+  color: #000;
+}
+
+.rt{
+ 	padding-top: 50px;
+ 	padding-right: 10px;
+	/*float: right;*/  
+}
+#lg{
+	padding-top: 0px;
+  padding-left: 100px;
+}
+#user{
+	border-radius: 50%;
+	 height: 30px ;
+	 width: 45px;
+
+}
+/*user logo*/
+.chip {
+  display: inline-block;
+  padding: 0px 10px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 50px;
+  border-radius: 25px;
+  background-color: #f1f1f1;
+}
+
+.chip img {
+  float: left;
+  margin: 0 10px 0 -25px;
+  height: 50px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+/* Caption text */
+.text1 {
+  color: #f2f2f2;
+  font-size: 25px;
+  padding: 8px 300px;
+  position: absolute;
+  bottom: 250px;
+  width: 100%;
+  text-align: left;
+}
+.text2 {
+  color: #f2f2f2;
+  font-size: 25px;
+  position: absolute;
+  bottom: 250px;
+  width: 100%;
+  text-align: center;
+}
+
+#sbox{
+ 
+  height: 80px;
+  width: 60%;
+ font-size:20px;
+  box-shadow: 3px 5px 5px #88888888
+border:none;
+  
+
+}
+
+
+.inp{
+   position: relative;
+  bottom:100px;
+  left:10%;
+}
+
+
+
+.inp img{
+  position: relative;
+  right: 29px;
+  height:102px;
+   width:100px;
+   top:45px;
+}
+.inp select{
+  position: relative;
+  top:0px;
+  left: -12px;
+  height: 85px;
+  width: 100px;
+  font-size:20px;
+  box-shadow: 3px 5px 5px #88888888;
+  background-color: #E0E5E6 ;
+}
+
+
+.mySlides h1{
+	color: white;
+}
+.mySlides img{
+	
+	height: 500px;
+}
+button{
+	color: white;
+	padding: 15px 25px;
+	background-color: #3EA1B0;
+	font-size: 18px;
+	border:none;
+	font-weight: bold;
+
+}
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -60px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* sevices div*/
+.services{
+  overflow: hidden;
+  height: 400px;
+  width: 100%;
+
+}
+.services1{
+  width: 25%;
+  float: left;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  
+}
+.dot {
+  height: 100px;
+  width: 100px;
+  background-color: #2BDBFE ;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot1 {
+  height: 100px;
+  width: 100px;
+  background-color: #F7F435  ;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot2 {
+  height: 100px;
+  width: 100px;
+  background-color: orange ;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot3 {
+  height: 100px;
+  width: 100px;
+  background-color: red ;
+  border-radius: 50%;
+  display: inline-block;
+}
+.services p{
+  padding-left: 30px;
+}
+
+/* about me*/
+.about{
+  overflow: hidden;
+  height: 350px;
+  width: 100%;
+   background-color: #E0E5E6;
+}
+.text-lf{
+   width: 60%;
+   float: left;
+   text-align: center;
+ 
+}
+.img-rt{
+  width: 40%;
+   float: left;
+   overflow: none;
+
+}
+.text-lf ul {
+  list-style: none;
+}
+
+.text-lf ul li:before {
+  content: "\2713\0020";
+}
+
+li{
+  padding-top: 10px;
+}
+
+.hostro-service{
+ padding-top: 100px;
+  width: 100%;
+  height: 850px;
+
+}
+.hostro-service h1,h4{
+   text-align: center;
+}
+.hostro-left{
+  text-align: right;
+  width: 32%;
+  float: left;
+  font-size: 25px;
+}
+.hostro-center{
+  width: 38%;
+  float: left;
+  z-index: 1;
+}
+.hostro-right{
+  text-align: left;
+  width: 30%;
+  float: left;
+  font-size: 25px;
+}
+.hostro-left p{
+  font-size: 15px;
+padding-top: 0px;
+padding-left: 100px;
+padding-right: 50px;
+}
+.hostro-right p{
+  font-size: 15px;
+padding-top: 0px;
+padding-right: 100px;
+padding-left: 50px;
+}
+.hostro-left span{
+height: 40px;
+width: 40px;
+background-color: lightblue;
+border-radius: 50%;
+display: inline-block;
+
+}
+.hostro-right span{
+  height: 40px;
+width: 40px;
+background-color: lightblue;
+border-radius: 50%;
+display: inline-block;
+}
+
+/*FUN FACT*/
+.funfact{
+text-align: center;
+height: 400px;
+width: 100%;
+
+}
+* {
+  box-sizing: border-box;
+}
+
+.columns {
+  float: left;
+  width: 25%;
+  padding: 8px;
+  background:transparent;
+}
+
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  background-color: white;
+}
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+  font-size: 25px;
+  text-align: center;
+}
+
+.price li {
+ 
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.price .grey {
+  
+  font-size: 30px;
+  font-weight: bold;
+  padding-top:10px;
+  padding-bottom: 10px; 
+}
+
+.columns button{
+  background-color:#3EA1B0 ;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  padding-top: 10px;
+}
+/*
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+/*features*/
+.feat{
+  width: 100%;
+  height: 700px;
+margin-top: 200px;
+}
+
+/*testimonials*/
+.testi{
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background-image: url('images/i1.jpg');
+  text-align:center;
+  color: white;
+  padding-top: 100px;
+}
+
+/* Slideshow container */
+.testislide {
+  margin-left: 50px;
+  margin-right: 50px;
+  position: relative;
+  background: #f1f1f1f1;
+
+}
+
+/* Slides */
+.TSlide {
+margin-left: 50px;
+  margin-right: 50px;
+  display: none;
+  padding: 80px;
+  text-align: center;
+color: black;
+}
+
+/* Next & previous buttons */
+.prev1, .next1 {
+  cursor: pointer;
+  position: absolute;
+  top: 30%;
+  width: auto;
+  margin-top: 10px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: lightgrey;
+}
+
+/* Position the "next button" to the right*/
+.next1 {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev1 {
+  position: absolute;
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through 
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.doti-container {
+  margin-top:0px;
+  margin-left: 50px;
+  margin-right: 50px;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+/* The dots/bullets/indicators */
+.doti {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
+
+
+/*contact*/
+
+.touch{
+  height: 300px;
+  background-color: #E0E5E6; 
+  margin-top: 200px ;
+  padding-top: 100px;
+  position: relative;
+  text-align: center;
+}
+.contactus{
+  margin: 50px 100px 100px 180px;
+  position: absolute;
+background-color: white;
+height: 170px;
+width: 70%;
+ box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+.contactus input{
+  margin: 50px 20px;
+  width: 20%;
+  height: 50px;
+}
+
+/*footer*/
+.footer{
+width: 100%;
+background-color:#1C3B55;
+height: 300px;
+text-align: center;
+padding-top: 50px;
+
+}
+.lower{
+  margin-top: 100px;
+  height: 100px;
+  background-color: #102435 ;
+}
+.lower a{
+
+      text-decoration:none !important;
+      color:white !important;
+
+}

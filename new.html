@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+    Website Desiging
+  </title>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+  <style type="text/css">
+ .header{
+  
+  font: 14px Arial;
+  font-weight: bold;
+  width: 100%;
+  display: flex;
+}
+.logo{
+  flex: 50%;
+  overflow: hidden;
+}
+
+.navbar a {
+
+  color: #777; 
+  padding: 14px 20px; 
+  text-decoration: none;
+}
+
+.navbar a:active {
+  color: #000;
+}
+
+.rt{
+  padding-top: 50px;
+  padding-right: 10px;
+  /*float: right;*/  
+}
+#lg{
+  padding-top: 0px;
+  padding-left: 200px;
+}
+#user{
+  border-radius: 50%;
+   height: 30px ;
+   width: 45px;
+
+}
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+/* Caption text */
+.text1 {
+  color: #f2f2f2;
+  font-size: 25px;
+  padding: 8px 300px;
+  position: absolute;
+  bottom: 200px;
+  width: 100%;
+  text-align: left;
+}
+.text2 {
+  color: #f2f2f2;
+  font-size: 25px;
+  position: absolute;
+  bottom: 200px;
+  width: 100%;
+  text-align: center;
+}
+
+#sbox{
+ 
+  height: 80px;
+  width: 60%;
+ font-size:20px;
+  box-shadow: 3px 5px 5px #88888888;
+  border:none;
+}
+
+
+.inp{
+   position: relative;
+  bottom:100px;
+  left:10%;
+}
+
+
+
+.inp img{
+  position: relative;
+  right: 15px;
+  height:102px;
+   width:100px;
+   top:45px;
+}
+.inp select{
+  position: relative;
+  top:0px;
+  left: -4px;
+  height: 85px;
+  width: 100px;
+  font-size:20px;
+  box-shadow: 3px 5px 5px #88888888;
+  background-color: #E0E5E6 ;
+}
+
+
+.mySlides h1{
+  color: white;
+}
+.mySlides img{
+  
+  height: 500px;
+}
+.mySlides button{
+  color: white;
+  padding: 10px 20px;
+  background-color: #3EA1B0;
+  font-size: 15px;
+  border-radius: 10px;
+  font-weight: bold;
+
+}
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/*.slider{
+  overflow: hidden;
+  height: 400px;
+  width: 100%;
+  padding-bottom: 100px;
+
+}
+
+.slider figure{
+  position:relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 20s slider infinite;
+}
+
+.slider figure img{
+  float: left;
+  width: 20%;
+  height: 500px;
+  opacity: 0.5;
+}
+
+@keyframes slider{
+  0% {
+    left: 0;
+  }
+  20% {
+    left:0;
+  }
+  25%{
+    left: -100%;
+  }
+  45%{
+    left: -100%;
+  }
+  50%{
+    left: -200%;
+  }
+  70%{
+    left: -200%;
+  }
+  75%{
+    left: -300%;
+  }
+  95%{
+    left: -300%;
+  }
+  100%{
+    left: -400%;
+  }
+  
+}
+
+*/
+
+  </style>
+    
+  </script>
+<div class="header" >
+  <div class="logo">
+  <img src="logo.png" id="lg" alt="logo" height="170px" width="250px">
+  </div>
+  <div class="logo navbar rt">        
+      <a href="#">HOME</a>
+        <a href="#">ABOUT</a>
+        <a href="#">PRICING</a>
+        <a href="#">CONTACT</a>
+        <a href="#">PAGE</a>
+        <img src="user.jpg" id="user" alt="user">John Deo
+    </div>
+</div>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  
+  <img src="i1.jpg" style="width:100%">
+  <div class="text1" >
+  <h1>Caption Text1</h1>
+  <p>Paragraph1 text here...</p>
+  <br>
+  <button>This is Button1</button>
+  </div>
+</div>
+
+<div class="mySlides fade">
+ 
+  <img src="i2.jpg" style="width:100%">
+  <div class="text2" >
+     <h1>Caption Text2</h1>
+  <p>Paragraph2 text here...</p>
+  <br>
+  <button>This is Button2</button>
+  </div>
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="i3.jpg" style="width:100%">
+  <div class="text1">
+     <h1>Caption Text3</h1>
+  <p>Paragraph3 text here...</p>
+  <br>
+  <button>This is Button3</button>
+  </div>
+</div>    
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+<div class="inp">
+<input type="text" name="search" id="sbox">
+<select>
+  <option>.com</option>
+  <option>.co</option>
+  <option>.in</option>
+</select>
+<img src="search.png" alt="search" >
+</div>
+</div>
+
+<div style="height: 100px">
+  
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+ 
+  slides[slideIndex-1].style.display = "block";  
+  
+}
+</script>
+</body>
+</html>
